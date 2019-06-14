@@ -1,11 +1,11 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-    //    applicationId "com.obopay.urlcreator"
+        applicationId "com.skc.urlcreator"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.compileSdkVersion
         versionCode rootProject.ext.libVersionCode
@@ -19,14 +19,14 @@ android {
         }
     }
 
-     libraryVariants.all { variant ->
+   /*  libraryVariants.all { variant ->
          variant.outputs.each { output ->
              def project = "EndPointCreator"
              def SEP = "_"
              def version = rootProject.ext.libVersionName
              output.outputFileName = project+SEP+"v"+version+".aar"
          }
-     }
+     }*/
 }
 
 dependencies {

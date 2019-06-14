@@ -1,4 +1,4 @@
-package com.obopay.endpointcreator
+package com.skc.endpointcreator
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.obopay.endpointcreator
+package com.skc.endpointcreator
 
 import android.app.Activity
 import android.content.Intent

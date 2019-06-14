@@ -1,4 +1,4 @@
-package com.obopay.endpointcreator
+package com.skc.endpointcreator
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
