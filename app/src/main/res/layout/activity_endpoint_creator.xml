@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="12dp"
+              android:background="@android:color/white"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:gravity="center"
+            tools:text="http://www.google.com/"
+            android:id="@+id/new_url_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RadioGroup
+            android:id="@+id/protocol_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/http_rb"
+                android:text="@string/http"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <RadioButton
+                android:checked="true"
+                android:id="@+id/https_rb"
+                android:text="@string/https"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <CheckBox
+            android:text="@string/www"
+            android:id="@+id/www_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/domain_input_layout"
+            android:layout_width="match_parent"
+            android:hint="@string/domain"
+            app:helperText="(e.g: xyz.com)"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/domain_input_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

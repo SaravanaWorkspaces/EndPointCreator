@@ -1,0 +1,10 @@
+<resources>
+    <string name="lib_app_name">URLCreator</string>
+    <string name="str_title">Create a URL</string>
+    <string name="http">http</string>
+    <string name="https">https</string>
+    <string name="www">WWW</string>
+    <string name="domain">Domain</string>
+    <string name="configure_url">Configure URL</string>
+    <string name="create">Create</string>
+</resources>
