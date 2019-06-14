@@ -1,5 +1,4 @@
 # EndPointCreator - Android
-==================
 
 It is a utility project to configure/update base URL of an application.
 User can get EndPointCreator_v1.0.2.arr from this app build folder.
